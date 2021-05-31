@@ -1,0 +1,151 @@
+#header-img{
+  width:200px;
+  height: 100px;
+}
+#header{
+  max-width:100%;
+  background-color:black;
+  display:flex;
+  align-items: center;
+  
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  
+  color: white;
+  font-family: sans-serif;
+  padding: 1em;
+  
+  
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+ul{
+  list-style:none;
+  color:white;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+  
+  
+}
+nav{
+    width: 100%;
+    position: fixed;
+    
+}
+
+media (max-width: 650px) {
+  nav {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+  }
+  nav li {
+    padding-bottom: 5px;
+  }
+}
+
+.sign-up-page{
+height=500px;
+display:flex;
+justify-content:center;
+background-color:black;
+color:white;
+align-items:center;
+}
+#form{
+text-align:center;
+margin-bottom: 25px;
+}
+#video{
+  margin: auto;
+  float: none;
+  display: block;
+  max-width: 1900px;
+  width: 100%;
+}
+.video-page{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: black;
+}
+p{
+  line-height: normal; 
+  font-size: 15px; 
+  max-width: 931px;
+  margin: 0 auto;
+  color: whitesmoke; 
+  padding: 25px;
+  text-align: center;
+  }
+  #description{
+    background-color:black;
+  }
+body{
+  background-color: black;
+  color: whitesmoke;
+}
+#new-launches1{
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+#image1{
+
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  }
+  h1{
+    text-align: center;
+  }
+
+#Plug-in-sale{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Shop{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+a{
+  color:white;
+  text-decoration:none;
+}
+
+#watch{
+  max-width:auto;
+  height:200px;
+}
+footer {
+  margin-top: 30px;
+  background-color: black;
+  padding: 20px;
+}
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+footer > ul > li {
+  padding: 0 10px;
+}
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #bbc4bd;
+}
